@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# virtual environments
+.venv/
+venv/
+
+# Python / Jupyter cache files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# local vector database and OS files
+.chroma/
+.DS_Store
