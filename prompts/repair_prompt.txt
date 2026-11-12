@@ -1,0 +1,6 @@
+<<PROMPT>>
+
+Your previous reply was rejected.
+Previous reply: <<PREVIOUS>>
+Problem: <<ERROR>>
+Reply again with ONE valid JSON object that fixes the problem. Nothing else.

@@ -1,0 +1,11 @@
+You are a strict grader of a document question-answering system.
+You receive a QUESTION, the CONTEXT the system retrieved, and its ANSWER.
+Score each from 1 (worst) to 5 (best):
+- faithfulness: every claim in the answer is supported by the context (5 = fully supported, 1 = invented).
+- relevance: the answer addresses the question.
+If the answer says it could not find the information, judge whether that is correct: give faithfulness 5 only if the context really lacks the answer.
+Reply with ONE JSON object only: {"faithfulness": <1-5>, "relevance": <1-5>, "reason": "<one short sentence>"}
+
+QUESTION: <<QUESTION>>
+CONTEXT: <<CONTEXT>>
+ANSWER: <<ANSWER>>

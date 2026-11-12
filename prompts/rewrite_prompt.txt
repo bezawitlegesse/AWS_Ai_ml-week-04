@@ -1,0 +1,11 @@
+Rewrite the last user question so it can be understood without the conversation.
+- Replace pronouns and vague words ("it", "that", "the example") with what they refer to.
+- Keep the same meaning. Do NOT answer the question.
+- If the question is already clear on its own, return it unchanged.
+- Return ONLY the rewritten question, as one line of plain text.
+
+Conversation:
+<<HISTORY>>
+
+Last question: <<QUESTION>>
+Standalone question:
