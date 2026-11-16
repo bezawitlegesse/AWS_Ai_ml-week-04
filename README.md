@@ -210,3 +210,4 @@ A case passes when the answer is found, has at least half of the expected keywor
 ## Credits
 
 Built with `pypdf`, `sentence-transformers`, `chromadb` and the `google-genai` SDK. The overall RAG approach follows the Week 4 lecture and the instructor's example notebook; the code, prompts, tests and evaluation here are my own.
+xx
